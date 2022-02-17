@@ -1,0 +1,212 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*------------Navigation-------*/
+#nav-bar
+{
+    position: sticky;
+	top: 0;
+	z-index: 10;
+ 
+}
+
+
+.navbar-brand img
+
+{
+
+ height: 60px;
+ padding-left: 30px;
+}
+
+
+.navbar-nav li a
+{
+	
+   float: right;
+   text-align:left;   
+
+}
+
+#nav bar ul li a:hover
+{
+	color: #007bff!important;
+}
+
+
+.navbar
+{
+	
+	 background-color: white; 
+	  
+}
+
+.navbar-fnt {
+    color: #FFFFFF;
+}
+
+.navbar-toggler 
+{
+	
+	border: none! important;
+}
+
+
+.nav-link
+{
+	
+	color: #555!important; 
+	font-weight: 600;
+	font-size: 16px;
+	
+	
+}
+
+#slider
+{
+	  width: 100%;
+}
+
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+
+
+.carousel-caption h5
+{
+	color: black;
+	font-size: 42px;
+}
+
+.carousel-inner
+{
+	
+	"float:left;
+	width:50%;
+	height:100%;
+	
+ 
+}
+
+/*-----------About--------*/
+
+#about
+{
+	padding-top:50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+
+#about .btn
+{
+	
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.about-content
+{
+	
+	padding-top:20px;
+}
+
+
+.skills-bar p
+{
+	
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+
+
+.progress-bar
+{
+	  border-radius: 16px;
+	  
+}
+
+
+.progress
+
+{
+	borer-radius: 16px ! important;
+	margin-bottom: 20px;
+}
+
+
+/*------promo----*/
+
+#promo
+{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(cont.png);
+	
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 100px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+
+
+/*--------Get in Touch---*/
+
+#contact
+{
+	
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+	
+	
+}
+
+.contact-form
+
+
+{
+	
+	padding: 15px;
+}
+
+
+.form-control
+{
+	
+	border-radius: 0 !important;
+	border: none  !important;
+}
+
+
+::placeholder
+{
+	color: 999  !important;
+}
+
+
+/*---Footer---*/
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+	
+	
+}
+
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
